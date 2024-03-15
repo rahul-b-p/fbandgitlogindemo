@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* div{border: 1px solid;} */
+.page{
+    width: 100%;
+    margin: 0px;
+
+}
+    
+.logo{ 
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: 35px 0px 0px 0px;
+}
+.logo i{
+    font-size: 50px;
+}
+.container{
+    width: 100%;
+    height: 380px;
+    margin: 25px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 330px;
+    height: 380px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 40px 235px 75px;
+    row-gap: 15px;
+}
+ .head{
+    width: 300px;
+    height: 40px;
+    margin: 0px 15px;
+    text-align: center;
+    padding: 0px;
+}
+.head h1{
+    font-family: "Segoe UI";
+    font-weight: 100;
+    font-size: 23px;
+} 
+.form{
+    width: 300px;
+    margin: 0px 15px;
+    border-radius: 8px;
+    border: 1px solid rgb(224, 228, 233);
+    background-color: rgb(246, 248, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    margin: 0px;
+    text-align: left;
+}
+label{
+    font-family: "Segoe UI";
+    font-size: 15px;
+    margin-left: 20px;
+    
+}
+input{
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.password-label {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between; /* Align content at both ends */
+    width: 100%; /* Occupy the full width of the container */
+}
+label span {
+    margin-left: auto; /* Push the "Forgot Password" link to the right */
+}
+.password-label a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: blue;
+    font-size: 12px;
+}
+.pass{
+    border: 1px solid;
+}
+.submit{
+    width: 262px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 15px 20px 15px 20px;
+    border: 1px solid darkgreen;
+    background-color: darkgreen;
+}
+.submit:hover{
+    background-color: green;
+}
+.submit a{
+    font-family: "Segoe UI";
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.signin{
+    width: 300px;
+    margin: 0px 15px;
+    border-radius: 8px;
+    border: 1px solid rgb(224, 228, 233);
+    text-align: center;
+    padding: 10px 0px;
+}
+.passkey{
+    text-decoration: none;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    color: blue;
+    font-size: 14px;
+}
+.signin p{
+    margin-top: 10px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+    font-size: 14px;
+}
+.new{
+    text-decoration: none;
+    color: mediumblue;
+}
+.footer{
+    width: 100%;
+    height: 110px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    transform: translateY(20px);
+}
+.foot a{
+    text-decoration: none;
+    color: rgb(159, 109, 140);
+    font-family: "Segoe UI";
+    font-size: 12px;
+}
+
+.terms:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.privacy:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.docs:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.contact:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.cookies:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.dont-share:hover{
+    color: blue;
+    text-decoration: underline;
+}
